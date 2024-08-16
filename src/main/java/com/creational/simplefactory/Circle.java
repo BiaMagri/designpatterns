@@ -1,4 +1,4 @@
-package com.java.simplefactory;
+package com.creational.simplefactory;
 
 public class Circle implements Shape {
 
