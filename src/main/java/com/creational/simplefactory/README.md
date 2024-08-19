@@ -52,12 +52,9 @@ public class Main {
 
 The Simple Factory Pattern makes it easy to extend the codebase. When you need to add new shapes, you only need to:
 
-1. Create a new class that implements the Shape interface.
-2. Update the ShapeFactory to handle the new shape type.
-
-### Code Maintenance
-
-By using the Simple Factory Pattern, the code becomes more maintainable. Changes to the object creation process are localized to the factory class, reducing the risk of introducing bugs in other parts of the application.
+1. Create a new class that implements the `Shape` interface.
+2. Update the `ShapeType` enum to include the new shape type.
+3. Update the `ShapeFactory` to handle the new shape type.
 
 #### Example
 
@@ -99,3 +96,7 @@ public class ShapeFactory {
 	}
 }
 ```
+
+### Code Maintenance
+
+By using the Simple Factory Pattern, the code becomes more maintainable. Changes to the object creation process are localized to the factory class, reducing the risk of introducing bugs in other parts of the application.
