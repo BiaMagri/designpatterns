@@ -27,7 +27,16 @@ Once you have cloned the repository, you can navigate to the directory and explo
 
 This repository currently includes the following design patterns:
 
-- [Simple Factory Method](https://github.com/BiaMagri/designpatterns/tree/master/src/main/java/com/java/simplefactory)
+### Behavioral Patterns
+- [Observer](https://github.com/BiaMagri/designpatterns/tree/master/src/main/java/com/behavioral/observer)
+
+### Creational Patterns
+- [Simple Factory Method](https://github.com/BiaMagri/designpatterns/tree/master/src/main/java/com/creational/simplefactory)
+- [Factory Method](https://github.com/BiaMagri/designpatterns/tree/master/src/main/java/com/creational/factorymethod)
+
+### Structural Patterns
+In progress
+
 
 Each design pattern has its own directory, which contains a brief description of the pattern, code examples, and any relevant resources.
 
